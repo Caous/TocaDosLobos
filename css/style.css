@@ -212,3 +212,13 @@ hr{
     opacity: 1;
     transform: translate3d(0,0,0);
 }
+
+.form-contato{
+    width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-contato{
+        width: 100%;
+    }
+  }
